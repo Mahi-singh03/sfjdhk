@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/emoji-picker-element@1/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container">
+            <!-- Header -->
+            <div class="chat-header">
+                <div class="profile-pic">
+                    <img src="./samriti.jpeg" alt="Profile Picture">
+                </div>
+                <div class="chat-info">
+                    <h3>samriti thakur</h3>
+                    <p>Online</p>
+                </div>
+                <div class="header-icons">
+                    <i class="fas fa-video"></i>
+                    <i class="fas fa-phone"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </div>
+
+            <!-- Chat Area -->
+            <div class="chat-area">
+                <div class="message received">
+                    <div class="message-content">
+                        <p>Hey! How are you?</p>
+                        <span class="time">10:30 AM</span>
+                    </div>
+                </div>
+                <div class="message sent">
+                    <div class="message-content">
+                        <p>I'm good, thanks! How about you?</p>
+                        <span class="time">10:31 AM</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <div class="input-icons">
+                    <i class="far fa-smile" id="emoji-button"></i>
+                    <i class="fas fa-paperclip"></i>
+                </div>
+                <div class="emoji-picker-container">
+                    <emoji-picker class="emoji-picker"></emoji-picker>
+                </div>
+                <input type="text" placeholder="Type a message">
+                <div class="send-icon">
+                    <i class="fas fa-microphone"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
