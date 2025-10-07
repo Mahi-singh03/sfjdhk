@@ -1,0 +1,56 @@
+{
+  "instituteName": "SkillUp Institute",
+  "contact": {
+    "phone": "+1-555-0123",
+    "email": "info@skillup.example",
+    "website": "https://skillup.example",
+    "address": "123 Learning Ave, Knowledge City, 00000"
+  },
+  "admissions": {
+    "process": "Apply online via the website, attend counseling call, confirm enrollment by paying the first installment.",
+    "intakes": ["January", "April", "July", "October"],
+    "eligibility": "Open to graduates and final-year students; basic computer literacy required."
+  },
+  "fees": {
+    "currency": "USD",
+    "paymentOptions": ["Full", "Monthly Installments"],
+    "refundPolicy": "Full refund within 7 days of batch start; prorated thereafter as per policy."
+  },
+  "placements": {
+    "assistance": true,
+    "partners": ["TechNova", "DataWorks", "CloudHub"],
+    "averageCTC": "$6,000 - $12,000 per annum for entry roles",
+    "support": ["Resume reviews", "Mock interviews", "Job portal access"]
+  },
+  "courses": [
+    {
+      "id": "fsd",
+      "name": "Full-Stack Development",
+      "duration": "24 weeks",
+      "mode": "Online live",
+      "skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Databases"],
+      "fees": 1200
+    },
+    {
+      "id": "ds",
+      "name": "Data Science",
+      "duration": "20 weeks",
+      "mode": "Online live",
+      "skills": ["Python", "Pandas", "Machine Learning", "Visualization"],
+      "fees": 1400
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud & DevOps",
+      "duration": "16 weeks",
+      "mode": "Hybrid",
+      "skills": ["Linux", "Docker", "Kubernetes", "CI/CD", "AWS Basics"],
+      "fees": 1300
+    }
+  ],
+  "faqs": [
+    { "q": "Do you offer certificates?", "a": "Yes, certificates are issued upon successful completion." },
+    { "q": "Are classes recorded?", "a": "Yes, recordings are available within 24 hours after each session." },
+    { "q": "Is financial aid available?", "a": "We offer need-based scholarships for select candidates." }
+  ]
+}
